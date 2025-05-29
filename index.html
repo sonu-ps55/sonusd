@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just For You</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--song section-->
+    <div class="music-player">
+        <button id="music-toggle"><i class="fas fa-music"></i></button>
+        <div class="volume-control">
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+        </div>
+        <audio id="background-music" loop>
+            <source src="" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!--Welome section-->
+    <div class="container">
+        <section class="welcome-section" id="welcome">
+            <div class="welcome-content">
+                <h1>Hi <span id="her-name">[Her Name]</span>,<w/h1>
+                <p class="subtitle">this is just for you, because you matter to me.</p>
+                <button class="continue-btn">Continue <i class="fas fa-heart"></i></button>
+            </div>
+        </section>
+
+
+  <!---2ND PAGE-->
+        <section class="letter-section" id="letter">
+            <div class="letter-content">
+                <h2>A Letter From My Heart</h2>
+                <div class="letter-paper">
+                    <p id="letter-text">
+                        Dear [Her Name],<br><br>
+                        
+                        I wanted to create something special just for you. Something that could express how much you mean to me, even though words can never fully capture it.<br><br>
+                        
+                        Thank you for being in my life. Thank you for your smile that brightens even my darkest days. Thank you for your kindness, your strength, and for being exactly who you are.<br><br>
+                        
+                        You matter to me more than you'll ever know. The way you understand me, support me, and make me feel is something I cherish every single day.<br><br>
+                        
+                        This little page is just a small way to show you how important you are to me. How much I care. How much you mean.<br><br>
+                        
+                        With all my heart,<br>
+                        [Your Name]
+                    </p>
+                </div>
+                <button class="continue-btn">Continue <i class="fas fa-heart"></i></button>
+            </div>
+        </section>
+
+   <!---3rd Page-->
+        <section class="gallery-section" id="gallery">
+            <h2>Our Cute Moments</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="img.png" alt="you matter">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300?text=Add+Your+Photo" alt="Our moment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300?text=Add+Your+Photo" alt="Our moment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300?text=Add+Your+Photo" alt="Our moment">
+                </div>
+            </div>
+            <button class="continue-btn">Continue <i class="fas fa-heart"></i></button>
+        </section>
+
+    <!---4th Page-->
+        <section class="special-section" id="special">
+            <h2>Why You're Special</h2>
+            <div class="special-points">
+                <div class="special-point">
+                    <i class="fas fa-star"></i>
+                    <p>Tum muskurati ho to din ban jaata hai.</p>
+                </div>
+                <div class="special-point">
+                    <i class="fas fa-star"></i>
+                    <p>Tum meri life ki sabse achhi feeling ho.</p>
+                </div>
+                <div class="special-point">
+                    <i class="fas fa-star"></i>
+                    <p>Tumhare bina sab kuch adhoora sa lagta hai.</p>
+                </div>
+                <div class="special-point">
+                    <i class="fas fa-star"></i>
+                    <p>Tumhari hasi meri duniya ko roshan kar deti hai.</p>
+                </div>
+                <div class="special-point">
+                    <i class="fas fa-star"></i>
+                    <p>Tum jitni strong ho, utni hi caring bhi.</p>
+                </div>
+                <div class="special-point">
+                    <i class="fas fa-star"></i>
+                    <p>Tumhare saath waqt ruksa jata hai.</p>
+                </div>
+                <div class="special-point">
+                    <i class="fas fa-star"></i>
+                    <p>Tumhari baatein mujhe hamesha smile karati hain.</p>
+                </div>
+            </div>
+            <button class="continue-btn">Continue <i class="fas fa-heart"></i></button>
+        </section>
+
+    <!---5th Page-->
+        <section class="hidden-message-section" id="hidden-message">
+            <h2>I Have Something To Tell You...</h2>
+            <div class="message-container">
+                <button id="reveal-btn">Click to Reveal</button>
+                <div id="hidden-text" class="hidden">
+                    <p>"Main hamesha tumhare saath hu, chahe kuch bhi ho jaye. You're never alone."</p>
+                </div>
+            </div>
+            <button class="continue-btn">Continue <i class="fas fa-heart"></i></button>
+        </section>
+
+
+    <!---6th Page-->
+        <section class="timeline-section" id="timeline">
+            <h2>Our Special Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span id="first-date">DD/MM/YYYY</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>When We First Met</h3>
+                        <p>The day that changed everything.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span id="special-date">DD/MM/YYYY</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Our Special Moment</h3>
+                        <p>A memory I'll cherish forever.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span id="today-date"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Today</h3>
+                        <p>Still falling for you, every single day.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="days-counter">
+                <h3>We've shared</h3>
+                <div class="counter" id="days-count">0</div>
+                <h3>beautiful days together</h3>
+            </div>
+        </section>
+
+        <!---7th page-->
+
+        <section class="final-section" id="final">
+            <div class="final-message">
+                <h2>Thank You For Being You</h2>
+                <p>This page will always be here, just like my feelings for you.</p>
+                <div class="heart-animation">
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
